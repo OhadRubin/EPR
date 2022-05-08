@@ -2,4 +2,4 @@
 
 The implementation will be avaliable early June.
 
-You can click the Watch button (top right) to get a notification.
+You can click the Watch button (top right) to get a notification once it is available.
