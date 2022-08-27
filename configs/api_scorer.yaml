@@ -1,0 +1,23 @@
+# cwd: ???
+
+# model_name: 'google/t5-v1_1-xl'
+model_name: "EleutherAI/gpt-neo-2.7B"
+# model_name: "EleutherAI/gpt-neo-125M"
+engine: "ada"
+output_file: ???
+batch_size: 5
+# length_file: ???
+example_file: ???
+setup_type: qa
+max_length: 2048
+task_name: ???
+
+dataset_reader:
+  _target_: src.dataset_readers.scorer_dsr.ScorerDatasetReader
+  model_name: ${model_name}
+  task_name: ${task_name} 
+    # _target_: src.dataset_readers.tasks.break_task.BreakTask
+  # prompt_file: ${prompt_file}
+  setup_type: ${setup_type}
+  example_file: ${example_file}
+  # length_file: ${length_file}

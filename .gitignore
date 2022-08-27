@@ -1,0 +1,25 @@
+# create_index.py
+outputs/*
+data/*
+.ipynb_checkpoints/*
+__pycache__/*
+DPR/.ipynb_checkpoints/*
+DPR/bert-base-uncased/*
+DPR/ckpt/*
+DPR/conf/.ipynb_checkpoints/*
+DPR/downloads/data/*
+DPR/dpr/__pycache__/*
+__pycache__/
+*.py[cod]
+DPR/outputs/*
+DPR/experiments/*
+checkpoint/*
+tmp/dpr_biencoder.24
+tmp/dpr_enc_index_0
+*ipynb_checkpoints*
+figures
+multirun
+notebooks
+experiments
+dataflow
+_notebooks

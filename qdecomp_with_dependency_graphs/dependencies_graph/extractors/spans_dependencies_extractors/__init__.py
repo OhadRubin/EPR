@@ -1,0 +1,2 @@
+from .base_spans_dependencies_extractor import BaseSpansDependenciesExtractor
+from .merge_spans_dependencies_exatractor import MergeSpansDependenciesExtractor

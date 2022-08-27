@@ -1,0 +1,30 @@
+overall scores:
+ged score:      mean 0.371      max 0.998       min 0.000
+normalized_exact_match score:   mean 0.280      max 1.000       min 0.000
+skipped 9 examples when computing ged.
+           ged  normalized_exact_match
+dataset
+ATIS     0.209  0.417
+CLEVR    0.560  0.167
+COMQA    0.422  0.111
+CWQ      0.375  0.000
+DROP     0.237  0.333
+GEO      0.000  1.000
+NLVR2    0.454  0.190
+SPIDER   0.239  0.467
+             ged  normalized_exact_match
+num_steps
+2          0.282  0.500
+3          0.274  0.350
+4          0.334  0.300
+5          0.425  0.235
+6          0.425  0.231
+7          0.549  0.100
+8         NaN     0.000
+9         NaN     0.000
+10         0.398  0.000
+11         0.839  0.000
+12         0.000  0.333
+13         0.453  0.500
+20        NaN     0.000
+{'GED': 0.3709896995734663, 'norm_EM': 0.28}
